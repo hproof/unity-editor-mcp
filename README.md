@@ -49,6 +49,13 @@ In Unity:
 
 #### ⚙️ Step 2: Configure Your MCP Client
 
+**For Claude Code:**
+在项目根目录下执行:
+```bash
+claude mcp add --transport stdio --scope project unity-editor-mcp -- cmd /c npx -y unity-editor-mcp@latest
+```
+
+
 **For Claude Desktop:**
 
 Add to your config file:
